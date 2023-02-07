@@ -9,5 +9,5 @@ FONTSDIR = "fonts"
 FILE = "NotoSansCJKjp-Regular.otf"
 FAMILY = "Noto Sans CJK JP"
 
-fontManager.addfont(Path(__file__).parent / FONTSDIR / FILE)
+fontManager.addfont(str((Path(__file__).parent / FONTSDIR / FILE).resolve()))
 matplotlib.rc("font", family=FAMILY)
