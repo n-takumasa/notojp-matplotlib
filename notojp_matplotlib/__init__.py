@@ -5,6 +5,8 @@ from pathlib import Path
 import matplotlib
 from matplotlib.font_manager import fontManager
 
+__version__ = "0.0.0"
+
 FONTSDIR = "fonts"
 FILE = "NotoSansCJKjp-Regular.otf"
 FAMILY = "Noto Sans CJK JP"
