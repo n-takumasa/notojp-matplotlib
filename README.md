@@ -9,7 +9,7 @@ matplotlib のフォントを [Noto Sans CJK](https://github.com/googlefonts/not
 ## 使い方
 
 ```
-pip install git+https://github.com/n-takumasa/notojp-matplotlib
+pip install notojp-matplotlib
 ```
 
 ```py
@@ -18,6 +18,6 @@ import notojp_matplotlib
 
 ## 使い方 (Google Colaboratory)
 ```py
-%pip -q install git+https://github.com/n-takumasa/notojp-matplotlib
+%pip -q install notojp-matplotlib
 import notojp_matplotlib
 ```
